@@ -17,15 +17,15 @@ theme = "hugo-theme-mono"
   [params.comment]
     provider = 'giscus'
     [params.comment.giscus]
-      repo = 'user/repo'
-      repoId = 'xxxxxx1234567'
+      repo = 'Kemeow815/kemiao-hugo-theme-mono'
+      repoId = 'R_kgDOO2kVZg'
       category = 'Announcements'
-      categoryId = 'xxxxxx1234567'
-      mapping = 'pathname'
+      categoryId = 'DIC_kwDOO2kVZs4CrEnj'
+      mapping = 'title'
       reactionsEnabled = true
       emitMetadata = false
       inputPosition = 'top'
-      theme = 'light_high_contrast'
+      theme = 'preferred_color_scheme'
       lang = 'zh-CN'
 
 [markup]
