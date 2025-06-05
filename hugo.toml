@@ -1,4 +1,4 @@
-baseURL = 'https://blog-v1.kemiaosw.top/'
+baseURL = 'https://blog-v2.kemiaosw.top/'
 languageCode = 'zh-CN'
 title = "喵落阁"
 disableKinds = ['section', 'taxonomy', 'term']
