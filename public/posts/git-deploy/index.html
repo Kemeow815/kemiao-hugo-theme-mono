@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="/css/main.css">
+      
+    
+  
+
+  <meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/>
+<title>
+  Git 同步上游仓库的更新 | 喵落阁
+</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+ 
+      <script src="/js/main.js"></script>
+
+
+
+<meta name="description" content="克喵的博客" />
+<meta name="keywords" content="hugo, theme, mono, simple, elegant, kemiao">
+<meta name="author" content="克喵爱吃卤面" />
+
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="/apple-touch-icon.png"
+/>
+
+
+<link rel="stylesheet" href="/fonts/LXGW/result.css">
+
+
+</head>
+<body class="w-full min-h-screen flex flex-col items-center">
+  <header class="w-full max-w-sm sm:max-w-2xl md:max-w-3xl px-5 sm:px-8">
+    <div class="flex justify-between items-center my-2 ">
+    <h1 class="font-serif text-xl"><a href="http://localhost:1313/">喵落阁</a></h1>
+    
+    <div>
+        <a href="/index.xml" class="inline-block mr-2" target="_blank" rel="noopener noreferrer">
+            <img src="/icon/feed.svg" alt="GitHub" class="h-6 w-6 text-cyan-300">
+        </a>
+    </div>
+</div>
+
+  </header>
+  <main class="w-full max-w-sm sm:max-w-2xl md:max-w-3xl px-5 sm:px-8 pt-8 pb-16">
+    
+  <h1 class="text-3xl font-bold font-serif my-3 text-gray-800">Git 同步上游仓库的更新</h1>
+
+  
+  
+  <div class="flex items-center my-3">
+    <time class="text-sm font-serif text-gray-500" datetime="2025-04-04T00:00:00&#43;00:00">April 4, 2025</time>
+    <span>
+      
+        <span class="mx-2"> · </span>
+        <span class="text-sm font-serif text-gray-500">克喵爱吃卤面</span>
+      
+    </span>
+  </div>
+
+  <article class="md">
+    <h2 id="git-同步上游仓库的更新">Git 同步上游仓库的更新</h2>
+<p>　　使用一个 Github Template 创建了我自己的仓库，需要同步一下补丁更新，总不能自己手抄一遍吧，搜了一下解决方案。</p>
+<p>　　记录一下。</p>
+<h3 id="添加上游仓库">添加上游仓库</h3>
+<p>　　给上游仓库取个名字，如果将命名为 <code>upstream</code>​ ，可以在本地仓库中运行以下命令：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git remote add upstream https://github.com/$&lt;upstream-repo&gt;.git
+</span></span></code></pre></div><h3 id="获取上游仓库的更改">获取上游仓库的更改</h3>
+<p>　　运行以下命令以获取上游仓库中的所有分支和提交：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git fetch upstream
+</span></span></code></pre></div><h3 id="合并上游更改">合并上游更改</h3>
+<p>　　现在，将上游 main 分支的更改合并到您的本地 main 分支：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git merge upstream/main --allow-unrelated-histories
+</span></span></code></pre></div><p>　　如果只需要合并特定的 commit ：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git cherry-pick &lt;commit-hash&gt;
+</span></span></code></pre></div><p>　　也可以使用</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>gcp &lt;commit-hash&gt;
+</span></span></code></pre></div><p>　　commit-hash 可以直接从 github 网页上复制。</p>
+<p>　　这时 commit 的作者是源仓库的作者， Vercel 提示我 Build 失败，需要升级到 Pro，可以再修改一个文件，自己添加一条 commit 。</p>
+<p>　　当然这很不优雅，可以使用下面的命令获取更改到文件，但是不会提交 commit ，</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git cherry-pick &lt;commit-hash&gt; --no-commit
+</span></span></code></pre></div><p>　　然后手动提交一下</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;commit information&#34;</span>
+</span></span></code></pre></div><h3 id="解决冲突">解决冲突</h3>
+<p>　　如何自己已经修改过源代码，在合并过程中可能发生冲突，需要手动解决。<br>
+Git 也会进行提示，手动编辑冲突文件并保存，然后再提交更改。</p>
+<h3 id="批量提交">批量提交</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git cherry-pick &lt;起始提交&gt;^..&lt;结束提交&gt;
+</span></span></code></pre></div><p>　　如果有冲突会按照顺序处理，然后执行， continue 直到结束</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git cherry-pick --continue
+</span></span></code></pre></div><ul>
+<li>​<code>&lt;起始提交&gt;</code>​：范围的开始点（不包含此提交，除非用 &lt;起始提交&gt;~ 或 &lt;起始提交&gt;^）。</li>
+<li>​<code>&lt;结束提交&gt;</code>​：范围的结束点（包含此提交）。</li>
+<li>​<code>^</code>​ 是 Git 的语法，用于指定“之前的提交”。</li>
+<li>​<code>..</code>​ 表示范围。</li>
+</ul>
+<h3 id="推送">推送</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git push origin main
+</span></span></code></pre></div><p>　　当然默认来说，并不会推送到新加入的 <code>upstream</code>​ ，直接 <code>git push</code>​ 即可</p>
+<p>　　如果不再需要同步，可以删除上游的仓库</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git remote remove upstream
+</span></span></code></pre></div>
+  </article>
+
+  
+<div id="comment"></div>
+
+
+
+
+
+
+<script>
+    const s = document.createElement("script")
+    s.src = "https://giscus.app/client.js"
+    s.crossOrigin = "anonymous"
+    s.async = true
+    s.setAttribute("data-repo", "user\/repo")
+    s.setAttribute("data-repo-id", "xxxxxx1234567")
+    s.setAttribute("data-category", "Announcements")
+    s.setAttribute("data-category-id", "xxxxxx1234567")
+    s.setAttribute("data-mapping", "pathname")
+    s.setAttribute("data-strict", "0")
+    s.setAttribute("data-reactions-enabled", "0")
+    s.setAttribute("data-emit-metadata", "0")
+    s.setAttribute("data-input-position", "top")
+    s.setAttribute("data-theme", "light_high_contrast")
+    s.setAttribute("data-lang", "zh-CN")
+    s.setAttribute("data-loading", "lazy")
+    document.getElementById("comment").appendChild(s)
+</script>
+
+
+
+
+
+  </main>
+  <footer class="w-full max-w-sm sm:max-w-2xl md:max-w-3xl px-5 sm:px-8">
+    <div class="mt-4 mb-8 flex items-center justify-between">
+    <div>
+      <p class="text-sm text-gray-800">© 2025 <span class="mx-1 font-bold">·</span> 克喵爱吃卤面</p>
+      <a href="https://icp.gov.moe/?keyword=20250530/"><p class="text-sm text-gray-700">萌ICP备20250530号</p></a>
+    </div>
+    <div>
+      <a href="/pages/links">
+        <p class="text-sm text-gray-800 hover:text-green-800">友链</p>
+      </a>
+    </div>
+    
+</div>
+  </footer>
+</body>
+
+
+<script src="/js/view-image.min.js"></script>
+
+<script>
+  window.ViewImage && ViewImage.init('.md img');
+</script>
+
+
+<script>
+const paragraphs = document.querySelectorAll('article .md p');
+
+paragraphs.forEach(p => {
+    
+    if (p.querySelector('img')) {
+        p.classList.add('has-image'); 
+    } 
+});
+</script>
+</html>

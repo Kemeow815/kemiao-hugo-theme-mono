@@ -1,0 +1,38 @@
+baseURL = 'https://blog-v1.kemiaosw.top/'
+languageCode = 'zh-CN'
+title = "喵落阁"
+disableKinds = ['section', 'taxonomy', 'term']
+theme = "hugo-theme-mono"
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  description = '克喵的博客'
+  author = '克喵爱吃卤面'
+  keywords = 'hugo, theme, mono, simple, elegant, kemiao'
+  icp = '萌ICP备20250530号'
+  [params.social]
+    github = 'https://github.com/Kemeow815'
+  [params.comment]
+    provider = 'giscus'
+    [params.comment.giscus]
+      repo = 'user/repo'
+      repoId = 'xxxxxx1234567'
+      category = 'Announcements'
+      categoryId = 'xxxxxx1234567'
+      mapping = 'pathname'
+      reactionsEnabled = true
+      emitMetadata = false
+      inputPosition = 'top'
+      theme = 'light_high_contrast'
+      lang = 'zh-CN'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = true  # 图片包裹在 <p> 标签内
+      [markup.goldmark.parser.attribute]
+        block = true  # 启用块级元素属性
+    [markup.goldmark.renderer]
+      unsafe = true  # 新增此行

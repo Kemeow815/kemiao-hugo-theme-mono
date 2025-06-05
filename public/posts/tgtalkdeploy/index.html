@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="/css/main.css">
+      
+    
+  
+
+  <meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/>
+<title>
+  tgtalk免费部署 | 喵落阁
+</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+ 
+      <script src="/js/main.js"></script>
+
+
+
+<meta name="description" content="克喵的博客" />
+<meta name="keywords" content="hugo, theme, mono, simple, elegant, kemiao">
+<meta name="author" content="克喵爱吃卤面" />
+
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="/apple-touch-icon.png"
+/>
+
+
+<link rel="stylesheet" href="/fonts/LXGW/result.css">
+
+
+</head>
+<body class="w-full min-h-screen flex flex-col items-center">
+  <header class="w-full max-w-sm sm:max-w-2xl md:max-w-3xl px-5 sm:px-8">
+    <div class="flex justify-between items-center my-2 ">
+    <h1 class="font-serif text-xl"><a href="http://localhost:1313/">喵落阁</a></h1>
+    
+    <div>
+        <a href="/index.xml" class="inline-block mr-2" target="_blank" rel="noopener noreferrer">
+            <img src="/icon/feed.svg" alt="GitHub" class="h-6 w-6 text-cyan-300">
+        </a>
+    </div>
+</div>
+
+  </header>
+  <main class="w-full max-w-sm sm:max-w-2xl md:max-w-3xl px-5 sm:px-8 pt-8 pb-16">
+    
+  <h1 class="text-3xl font-bold font-serif my-3 text-gray-800">tgtalk免费部署</h1>
+
+  
+  
+  <div class="flex items-center my-3">
+    <time class="text-sm font-serif text-gray-500" datetime="2025-05-04T00:00:00&#43;00:00">May 4, 2025</time>
+    <span>
+      
+        <span class="mx-2"> · </span>
+        <span class="text-sm font-serif text-gray-500">克喵爱吃卤面</span>
+      
+    </span>
+  </div>
+
+  <article class="md">
+    <h2 id="部署-api">部署 API</h2>
+<p>访问 <a href="https://gist.github.com/FloatSheep/55db67d9e8148149ebbcb0f9f6b0d901">Gist</a> 并获取其中所有代码</p>
+<blockquote>
+<p>需要注意，本 API Worker 脚本基于 ChenYFan 修改，包含了本项目需要使用的功能，请勿随意更改脚本内容
+TGTalker-Frontend V2 的 API 不兼容 V1</p></blockquote>
+<p>进入 <a href="https://dash.cloudflare.com">Cloudflare 仪表盘</a></p>
+<p>选择创建应用程序 -&gt; 创建 Worker -&gt; 修改名称（部署）-&gt; 编辑代码</p>
+<p>在其中粘贴你复制的所有代码，并且修改 ChannelName 为你的频道名称，部署并访问 Worker 查看是否能正确返回内容</p>
+<p>接着你可以为你的 Worker 绑定一个域名</p>
+<p><img src="https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/202505042340004.png" 
+    loading="lazy" 
+    decoding="async" 
+    alt="No description" 
+     />
+
+<img src="https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/202505042340138.png" 
+    loading="lazy" 
+    decoding="async" 
+    alt="No description" 
+     />
+
+<img src="https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/202505042340963.png" 
+    loading="lazy" 
+    decoding="async" 
+    alt="No description" 
+     />
+</p>
+<p>保存，然后将你绑定的域名填入配置中的 api 项即可</p>
+
+  </article>
+
+  
+<div id="comment"></div>
+
+
+
+
+
+
+<script>
+    const s = document.createElement("script")
+    s.src = "https://giscus.app/client.js"
+    s.crossOrigin = "anonymous"
+    s.async = true
+    s.setAttribute("data-repo", "user\/repo")
+    s.setAttribute("data-repo-id", "xxxxxx1234567")
+    s.setAttribute("data-category", "Announcements")
+    s.setAttribute("data-category-id", "xxxxxx1234567")
+    s.setAttribute("data-mapping", "pathname")
+    s.setAttribute("data-strict", "0")
+    s.setAttribute("data-reactions-enabled", "0")
+    s.setAttribute("data-emit-metadata", "0")
+    s.setAttribute("data-input-position", "top")
+    s.setAttribute("data-theme", "light_high_contrast")
+    s.setAttribute("data-lang", "zh-CN")
+    s.setAttribute("data-loading", "lazy")
+    document.getElementById("comment").appendChild(s)
+</script>
+
+
+
+
+
+  </main>
+  <footer class="w-full max-w-sm sm:max-w-2xl md:max-w-3xl px-5 sm:px-8">
+    <div class="mt-4 mb-8 flex items-center justify-between">
+    <div>
+      <p class="text-sm text-gray-800">© 2025 <span class="mx-1 font-bold">·</span> 克喵爱吃卤面</p>
+      <a href="https://icp.gov.moe/?keyword=20250530/"><p class="text-sm text-gray-700">萌ICP备20250530号</p></a>
+    </div>
+    <div>
+      <a href="/pages/links">
+        <p class="text-sm text-gray-800 hover:text-green-800">友链</p>
+      </a>
+    </div>
+    
+</div>
+  </footer>
+</body>
+
+
+<script src="/js/view-image.min.js"></script>
+
+<script>
+  window.ViewImage && ViewImage.init('.md img');
+</script>
+
+
+<script>
+const paragraphs = document.querySelectorAll('article .md p');
+
+paragraphs.forEach(p => {
+    
+    if (p.querySelector('img')) {
+        p.classList.add('has-image'); 
+    } 
+});
+</script>
+</html>

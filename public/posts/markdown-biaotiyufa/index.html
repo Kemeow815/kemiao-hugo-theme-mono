@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="/css/main.css">
+      
+    
+  
+
+  <meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/>
+<title>
+  Markdown-标题语法 | 技术分享 | 喵落阁
+</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+ 
+      <script src="/js/main.js"></script>
+
+
+
+<meta name="description" content="克喵的博客" />
+<meta name="keywords" content="hugo, theme, mono, simple, elegant, kemiao">
+<meta name="author" content="克喵爱吃卤面" />
+
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="/apple-touch-icon.png"
+/>
+
+
+<link rel="stylesheet" href="/fonts/LXGW/result.css">
+
+
+</head>
+<body class="w-full min-h-screen flex flex-col items-center">
+  <header class="w-full max-w-sm sm:max-w-2xl md:max-w-3xl px-5 sm:px-8">
+    <div class="flex justify-between items-center my-2 ">
+    <h1 class="font-serif text-xl"><a href="http://localhost:1313/">喵落阁</a></h1>
+    
+    <div>
+        <a href="/index.xml" class="inline-block mr-2" target="_blank" rel="noopener noreferrer">
+            <img src="/icon/feed.svg" alt="GitHub" class="h-6 w-6 text-cyan-300">
+        </a>
+    </div>
+</div>
+
+  </header>
+  <main class="w-full max-w-sm sm:max-w-2xl md:max-w-3xl px-5 sm:px-8 pt-8 pb-16">
+    
+  <h1 class="text-3xl font-bold font-serif my-3 text-gray-800">Markdown-标题语法 | 技术分享</h1>
+
+  
+  
+  <div class="flex items-center my-3">
+    <time class="text-sm font-serif text-gray-500" datetime="2025-02-12T00:00:00&#43;00:00">February 12, 2025</time>
+    <span>
+      
+        <span class="mx-2"> · </span>
+        <span class="text-sm font-serif text-gray-500">克喵爱吃卤面</span>
+      
+    </span>
+  </div>
+
+  <article class="md">
+    <blockquote>
+<p>原文位置: <a href="https://markdown.com.cn/basic-syntax/headings.html">https://markdown.com.cn/basic-syntax/headings.html</a></p></blockquote>
+<h1 id="markdown-标题语法">Markdown 标题语法</h1>
+<p>要创建标题，请在单词或短语前面添加井号 (#) 。<code>#</code> 的数量代表了标题的级别。例如，添加三个 <code>#</code> 表示创建一个三级标题 (<code>&lt;h3&gt;</code>) (例如：<code>### My Header</code>)。</p>
+<table>
+  <thead>
+      <tr>
+          <th>Markdown语法</th>
+          <th>HTML</th>
+          <th>预览效果</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code># Heading level 1</code></td>
+          <td>&lt;h1&gt;Heading level 1&lt;/h1&gt;</td>
+          <td><h1>Heading level 1</h1></td>
+      </tr>
+      <tr>
+          <td><code>## Heading level 2</code></td>
+          <td>&lt;h2&gt;Heading level 1&lt;/h2&gt;</td>
+          <td><h2>Heading level 2</h2></td>
+      </tr>
+      <tr>
+          <td><code>### Heading level 3</code></td>
+          <td>&lt;h3&gt;Heading level 1&lt;/h3&gt;</td>
+          <td><h3>Heading level 3</h3></td>
+      </tr>
+      <tr>
+          <td><code>#### Heading level 4</code></td>
+          <td>&lt;h4&gt;Heading level 1&lt;/h4&gt;</td>
+          <td><h4>Heading level 4</h4></td>
+      </tr>
+      <tr>
+          <td><code>##### Heading level 5</code></td>
+          <td>&lt;h5&gt;Heading level 1&lt;/h5&gt;</td>
+          <td><h5>Heading level 5</h5></td>
+      </tr>
+      <tr>
+          <td><code>###### Heading level 6</code></td>
+          <td>&lt;h6&gt;Heading level 1&lt;/h6&gt;</td>
+          <td><h6>Heading level 6</h6></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="可选语法">可选语法</h2>
+<p>还可以在文本下方添加任意数量的 == 号来标识一级标题，或者 &ndash; 号来标识二级标题。</p>
+<table>
+  <thead>
+      <tr>
+          <th>Markdown语法</th>
+          <th>HTML</th>
+          <th>预览效果</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>Heading level 1</code><br> <code>===============</code></td>
+          <td>&lt;h1&gt;Heading level 1&lt;/h1&gt;</td>
+          <td><h1>Heading level 1</h1></td>
+      </tr>
+      <tr>
+          <td><code>Heading level 2</code><br><code>---------------</code></td>
+          <td>&lt;h2&gt;Heading level 2&lt;/h2&gt;</td>
+          <td><h2>Heading level 2</h2></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="最佳实践">最佳实践</h2>
+<p>不同的 <strong>Markdown</strong> 应用程序处理 <code>#</code> 和标题之间的空格方式并不一致。为了兼容考虑，请用一个空格在 <code>#</code> 和标题之间进行分隔。</p>
+<table>
+  <thead>
+      <tr>
+          <th>✅  Do this</th>
+          <th>❌  Don&rsquo;t do this</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code># Here's a Heading</code></td>
+          <td><code>#Here's a Heading</code></td>
+      </tr>
+  </tbody>
+</table>
+
+  </article>
+
+  
+<div id="comment"></div>
+
+
+
+
+
+
+<script>
+    const s = document.createElement("script")
+    s.src = "https://giscus.app/client.js"
+    s.crossOrigin = "anonymous"
+    s.async = true
+    s.setAttribute("data-repo", "user\/repo")
+    s.setAttribute("data-repo-id", "xxxxxx1234567")
+    s.setAttribute("data-category", "Announcements")
+    s.setAttribute("data-category-id", "xxxxxx1234567")
+    s.setAttribute("data-mapping", "pathname")
+    s.setAttribute("data-strict", "0")
+    s.setAttribute("data-reactions-enabled", "0")
+    s.setAttribute("data-emit-metadata", "0")
+    s.setAttribute("data-input-position", "top")
+    s.setAttribute("data-theme", "light_high_contrast")
+    s.setAttribute("data-lang", "zh-CN")
+    s.setAttribute("data-loading", "lazy")
+    document.getElementById("comment").appendChild(s)
+</script>
+
+
+
+
+
+  </main>
+  <footer class="w-full max-w-sm sm:max-w-2xl md:max-w-3xl px-5 sm:px-8">
+    <div class="mt-4 mb-8 flex items-center justify-between">
+    <div>
+      <p class="text-sm text-gray-800">© 2025 <span class="mx-1 font-bold">·</span> 克喵爱吃卤面</p>
+      <a href="https://icp.gov.moe/?keyword=20250530/"><p class="text-sm text-gray-700">萌ICP备20250530号</p></a>
+    </div>
+    <div>
+      <a href="/pages/links">
+        <p class="text-sm text-gray-800 hover:text-green-800">友链</p>
+      </a>
+    </div>
+    
+</div>
+  </footer>
+</body>
+
+
+<script src="/js/view-image.min.js"></script>
+
+<script>
+  window.ViewImage && ViewImage.init('.md img');
+</script>
+
+
+<script>
+const paragraphs = document.querySelectorAll('article .md p');
+
+paragraphs.forEach(p => {
+    
+    if (p.querySelector('img')) {
+        p.classList.add('has-image'); 
+    } 
+});
+</script>
+</html>
