@@ -17,7 +17,7 @@
   content="width=device-width, initial-scale=1, shrink-to-fit=no"
 />
 <title>
-  DROP：便捷大文件分享与托管网站，免费享10GB空间免费部署 | 喵落阁
+  tgtalk免费部署 | 喵落阁
 </title>
 
     <link rel="stylesheet" href="/css/main.css">
@@ -56,12 +56,12 @@
   </header>
   <main class="w-full max-w-sm sm:max-w-2xl md:max-w-3xl px-5 sm:px-8 pt-8 pb-16">
     
-  <h1 class="text-3xl font-bold font-serif my-3 text-gray-800">DROP：便捷大文件分享与托管网站，免费享10GB空间免费部署</h1>
+  <h1 class="text-3xl font-bold font-serif my-3 text-gray-800">tgtalk免费部署</h1>
 
   
   
   <div class="flex items-center my-3">
-    <time class="text-sm font-serif text-gray-500" datetime="2025-05-09T00:00:00&#43;00:00">May 9, 2025</time>
+    <time class="text-sm font-serif text-gray-500" datetime="2025-05-04T00:00:00&#43;00:00">May 4, 2025</time>
     <span>
       
         <span class="mx-2"> · </span>
@@ -71,44 +71,34 @@
   </div>
 
   <article class="md">
-    <h3 id="网站简介">网站简介</h3>
-<p>DROP 是一个便捷的文件分享与托管平台，云存储工具，提供免费10GB的存储空间，支持大文件的快速上传与分享。</p>
-<p>支持上传图片、视频、压缩文件和PDF，选择适合文件的文档后，点击拷贝链接即可直接获得分享链接。采用AI驱动技术，确保文件传输的高效性和安全性，同时提供简洁直观的用户界面，方便用户管理和分享文件。DROP 适用于个人用户和创作者，可轻松展示和分发作品</p>
-<hr>
-<h3 id="截图">截图</h3>
-<p><img src="https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/202505092144042.png" 
+    <h2 id="部署-api">部署 API</h2>
+<p>访问 <a href="https://gist.github.com/FloatSheep/55db67d9e8148149ebbcb0f9f6b0d901">Gist</a> 并获取其中所有代码</p>
+<blockquote>
+<p>需要注意，本 API Worker 脚本基于 ChenYFan 修改，包含了本项目需要使用的功能，请勿随意更改脚本内容
+TGTalker-Frontend V2 的 API 不兼容 V1</p></blockquote>
+<p>进入 <a href="https://dash.cloudflare.com">Cloudflare 仪表盘</a></p>
+<p>选择创建应用程序 -&gt; 创建 Worker -&gt; 修改名称（部署）-&gt; 编辑代码</p>
+<p>在其中粘贴你复制的所有代码，并且修改 ChannelName 为你的频道名称，部署并访问 Worker 查看是否能正确返回内容</p>
+<p>接着你可以为你的 Worker 绑定一个域名</p>
+<p><img src="https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/202505042340004.png" 
+    loading="lazy" 
+    decoding="async" 
+    alt="No description" 
+     />
+
+<img src="https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/202505042340138.png" 
+    loading="lazy" 
+    decoding="async" 
+    alt="No description" 
+     />
+
+<img src="https://cdn.jsdelivr.net/gh/kmfx/tuchuang@main/img/202505042340963.png" 
     loading="lazy" 
     decoding="async" 
     alt="No description" 
      />
 </p>
-<hr>
-<h3 id="功能特色">功能特色</h3>
-<ul>
-<li>
-<p><strong>免费10GB存储</strong>：新用户可免费享受10GB的存储空间，满足日常文件分享需求。</p>
-</li>
-<li>
-<p><strong>大文件支持</strong>：支持大文件的快速上传与分享，适合分享高清视频、大型文档等。</p>
-</li>
-<li>
-<p><strong>AI驱动</strong>：采用AI技术优化文件传输和管理，提升用户体验。</p>
-</li>
-<li>
-<p><strong>隐私保护</strong>：提供文件访问控制，保护用户隐私和数据安全。</p>
-</li>
-<li>
-<p><strong>简洁界面</strong>：直观的用户界面，易于上手，方便文件管理。</p>
-</li>
-<li>
-<p><strong>多平台支持</strong>：支持多种设备和操作系统，方便随时随地访问文件。</p>
-</li>
-</ul>
-<hr>
-<h3 id="网站地址">网站地址</h3>
-<p><a href="https://drop.space/">https://drop.space/</a></p>
-<hr>
-<p><strong>原文链接</strong>: <a href="https://www.appmiu.com/31115.html">https://www.appmiu.com/31115.html</a></p>
+<p>保存，然后将你绑定的域名填入配置中的 api 项即可</p>
 
   </article>
 
