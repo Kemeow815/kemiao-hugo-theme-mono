@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>喵落阁</title>
-    <link>http://localhost:1313/</link>
+    <link>https://blog-v2.kemiaosw.top/</link>
     <description>Recent content on 喵落阁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 19 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog-v2.kemiaosw.top/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>喵落阁</title>
-      <link>http://localhost:1313/</link>
+      <link>https://blog-v2.kemiaosw.top/</link>
       <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/</guid>
+      <guid>https://blog-v2.kemiaosw.top/</guid>
       <description></description>
     </item>
     
@@ -21,10 +21,10 @@
     
     <item>
       <title>资源分享：涂鹿Toolooz</title>
-      <link>http://localhost:1313/posts/zyfx-toolooz/</link>
+      <link>https://blog-v2.kemiaosw.top/posts/zyfx-toolooz/</link>
       <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/zyfx-toolooz/</guid>
+      <guid>https://blog-v2.kemiaosw.top/posts/zyfx-toolooz/</guid>
       <description>&lt;h2 id=&#34;涂鹿toolooz曲线文字绘制设计工具轻松创建沿任意路径排布的精美文字&#34;&gt;涂鹿Toolooz：曲线文字绘制设计工具，轻松创建沿任意路径排布的精美文字&lt;/h2&gt;
 &lt;p&gt;　　涂鹿Toolooz，在线曲线文字绘制工具，可使文字沿任意路径排列，打造独特视觉效果。为您的徽标、标题、艺术作品赋予生命力与创意。&lt;/p&gt;
 &lt;p&gt;　　支持自定义画布尺寸、文本内容、字体、间距、颜色、描边等，还支持多个绘图工具和选择文本是否重复，可导出为 PNG、WebP 和 SVG 格式，免费使用，无需注册。&lt;/p&gt;
@@ -66,10 +66,10 @@
     
     <item>
       <title>来将 Telegram 当音乐播放器吧！</title>
-      <link>http://localhost:1313/posts/telegram-music/</link>
+      <link>https://blog-v2.kemiaosw.top/posts/telegram-music/</link>
       <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/telegram-music/</guid>
+      <guid>https://blog-v2.kemiaosw.top/posts/telegram-music/</guid>
       <description>&lt;h2 id=&#34;来将-telegram-当音乐播放器吧寻找音乐即时歌词无损音乐不失真压缩&#34;&gt;来将 Telegram 当音乐播放器吧！（寻找音乐、即时歌词、无损音乐不失真压缩）&lt;/h2&gt;
 &lt;h3 id=&#34;步骤一到-music_-下载歌曲并找到歌词&#34;&gt;步骤一：到 &lt;a href=&#34;https://t.me/music_v1bot&#34;&gt;@music_v1bot&lt;/a&gt; 下载歌曲，并找到歌词&lt;/h3&gt;
 &lt;p&gt;　　&lt;em&gt;输入指令： /search （你想要的歌名）&lt;/em&gt;&lt;/p&gt;
@@ -139,10 +139,10 @@
     
     <item>
       <title>DROP：便捷大文件分享与托管网站，免费享10GB空间免费部署</title>
-      <link>http://localhost:1313/posts/zyfx-drop/</link>
+      <link>https://blog-v2.kemiaosw.top/posts/zyfx-drop/</link>
       <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/zyfx-drop/</guid>
+      <guid>https://blog-v2.kemiaosw.top/posts/zyfx-drop/</guid>
       <description>&lt;h3 id=&#34;网站简介&#34;&gt;网站简介&lt;/h3&gt;
 &lt;p&gt;DROP 是一个便捷的文件分享与托管平台，云存储工具，提供免费10GB的存储空间，支持大文件的快速上传与分享。&lt;/p&gt;
 &lt;p&gt;支持上传图片、视频、压缩文件和PDF，选择适合文件的文档后，点击拷贝链接即可直接获得分享链接。采用AI驱动技术，确保文件传输的高效性和安全性，同时提供简洁直观的用户界面，方便用户管理和分享文件。DROP 适用于个人用户和创作者，可轻松展示和分发作品&lt;/p&gt;
@@ -188,10 +188,10 @@
     
     <item>
       <title>tgtalk免费部署</title>
-      <link>http://localhost:1313/posts/tgtalk-deploy/</link>
+      <link>https://blog-v2.kemiaosw.top/posts/tgtalk-deploy/</link>
       <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/tgtalk-deploy/</guid>
+      <guid>https://blog-v2.kemiaosw.top/posts/tgtalk-deploy/</guid>
       <description>&lt;h2 id=&#34;部署-api&#34;&gt;部署 API&lt;/h2&gt;
 &lt;p&gt;访问 &lt;a href=&#34;https://gist.github.com/FloatSheep/55db67d9e8148149ebbcb0f9f6b0d901&#34;&gt;Gist&lt;/a&gt; 并获取其中所有代码&lt;/p&gt;
 &lt;blockquote&gt;
@@ -227,10 +227,10 @@ TGTalker-Frontend V2 的 API 不兼容 V1&lt;/p&gt;&lt;/blockquote&gt;
     
     <item>
       <title>Waline评论在Vercel部署</title>
-      <link>http://localhost:1313/posts/waline-deploy/</link>
+      <link>https://blog-v2.kemiaosw.top/posts/waline-deploy/</link>
       <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/waline-deploy/</guid>
+      <guid>https://blog-v2.kemiaosw.top/posts/waline-deploy/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;使用Waline评论我喜欢使用的部署方法(个人认为最简便)&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;所需账号&#34;&gt;所需账号&lt;/h2&gt;
@@ -440,10 +440,10 @@ TGTalker-Frontend V2 的 API 不兼容 V1&lt;/p&gt;&lt;/blockquote&gt;
     
     <item>
       <title>Umami博客访问统计Vercel&#43;Cloudflare Workers部署</title>
-      <link>http://localhost:1313/posts/umami-deploy/</link>
+      <link>https://blog-v2.kemiaosw.top/posts/umami-deploy/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/umami-deploy/</guid>
+      <guid>https://blog-v2.kemiaosw.top/posts/umami-deploy/</guid>
       <description>&lt;h2 id=&#34;第一部分vercelumami&#34;&gt;第一部分：Vercel+Umami&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -655,10 +655,10 @@ async function handleRequest(event) {
     
     <item>
       <title>Git 同步上游仓库的更新</title>
-      <link>http://localhost:1313/posts/git-deploy/</link>
+      <link>https://blog-v2.kemiaosw.top/posts/git-deploy/</link>
       <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/git-deploy/</guid>
+      <guid>https://blog-v2.kemiaosw.top/posts/git-deploy/</guid>
       <description>&lt;h2 id=&#34;git-同步上游仓库的更新&#34;&gt;Git 同步上游仓库的更新&lt;/h2&gt;
 &lt;p&gt;　　使用一个 Github Template 创建了我自己的仓库，需要同步一下补丁更新，总不能自己手抄一遍吧，搜了一下解决方案。&lt;/p&gt;
 &lt;p&gt;　　记录一下。&lt;/p&gt;
@@ -706,10 +706,10 @@ Git 也会进行提示，手动编辑冲突文件并保存，然后再提交更�
     
     <item>
       <title>Markdown-标题语法 | 技术分享</title>
-      <link>http://localhost:1313/posts/markdown-biaotiyufa/</link>
+      <link>https://blog-v2.kemiaosw.top/posts/markdown-biaotiyufa/</link>
       <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/markdown-biaotiyufa/</guid>
+      <guid>https://blog-v2.kemiaosw.top/posts/markdown-biaotiyufa/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文位置: &lt;a href=&#34;https://markdown.com.cn/basic-syntax/headings.html&#34;&gt;https://markdown.com.cn/basic-syntax/headings.html&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;markdown-标题语法&#34;&gt;Markdown 标题语法&lt;/h1&gt;
@@ -801,10 +801,10 @@ Git 也会进行提示，手动编辑冲突文件并保存，然后再提交更�
     
     <item>
       <title>Markdown-速查表</title>
-      <link>http://localhost:1313/posts/markdown-sulanbiao/</link>
+      <link>https://blog-v2.kemiaosw.top/posts/markdown-sulanbiao/</link>
       <pubDate>Tue, 11 Feb 2025 18:15:12 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/markdown-sulanbiao/</guid>
+      <guid>https://blog-v2.kemiaosw.top/posts/markdown-sulanbiao/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文位置: &lt;a href=&#34;https://markdown.com.cn/cheat-sheet.html#%E6%80%BB%E8%A7%88&#34;&gt;https://markdown.com.cn/cheat-sheet.html#%E6%80%BB%E8%A7%88&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;总览&#34;&gt;总览&lt;/h1&gt;
