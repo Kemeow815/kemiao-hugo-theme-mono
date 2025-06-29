@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head>
+  
+  
+    
+    
+      
+        
+          <link rel="stylesheet" href="/css/main.f4adf95d4d8bd3bb1419a1e908cacd47ac23993f8bbc580a761788a7cb4de154.css" integrity="sha256-9K35XU2L07sUGaHpCMrNR6wjmT&#43;LvFgKdheIp8tN4VQ=" crossorigin="anonymous">
+        
+      
+    
+  
+
+  <meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/>
+<title>
+  Markdowm 换行语法 | 喵落阁
+</title>
+
+      <link rel="stylesheet" href="/css/main.min.9a1360e9fcf9f4a689df4327c53d99521bd53021cec276c1e93b46d7b5ac3b1b.css" integrity="sha256-mhNg6fz59KaJ30MnxT2ZUhvVMCHOwnbB6TtG17WsOxs=" crossorigin="anonymous">
+ 
+        <script src="/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+
+
+
+<meta name="description" content="克喵的博客" />
+<meta name="keywords" content="hugo, theme, mono, simple, elegant, kemiao">
+<meta name="author" content="克喵爱吃卤面" />
+
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="/apple-touch-icon.png"
+/>
+
+
+<link rel="stylesheet" href="/fonts/LXGW/result.css">
+
+
+</head>
+<body class="w-full min-h-screen flex flex-col items-center">
+  <header class="w-full max-w-sm sm:max-w-2xl md:max-w-3xl px-5 sm:px-8">
+    <div class="flex justify-between items-center my-2 ">
+    <h1 class="font-serif text-xl"><a href="https://blog-v2.kemiaosw.top/">喵落阁</a></h1>
+    
+    <div>
+        <a href="/index.xml" class="inline-block mr-2" target="_blank" rel="noopener noreferrer">
+            <img src="/icon/feed.svg" alt="GitHub" class="h-6 w-6 text-cyan-300">
+        </a>
+    </div>
+</div>
+
+  </header>
+  <main class="w-full max-w-sm sm:max-w-2xl md:max-w-3xl px-5 sm:px-8 pt-8 pb-16">
+    
+  <h1 class="text-3xl font-bold font-serif my-3 text-gray-800">Markdowm 换行语法</h1>
+
+  
+  
+  <div class="flex items-center my-3">
+    <time class="text-sm font-serif text-gray-500" datetime="2025-06-28T00:00:00&#43;00:00">June 28, 2025</time>
+    <span>
+      
+        <span class="mx-2"> · </span>
+        <span class="text-sm font-serif text-gray-500">克喵爱吃卤面</span>
+      
+    </span>
+  </div>
+
+  <article class="md">
+    <blockquote>
+<p>原文链接: <a href="https://markdown.com.cn/basic-syntax/line-breaks.html">https://markdown.com.cn/basic-syntax/line-breaks.html</a></p></blockquote>
+<h2 id="markdown-换行语法">Markdown 换行语法</h2>
+<p>在一行的末尾添加两个或多个空格，然后按回车键,即可创建一个换行(<code>&lt;br&gt;</code>)。</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">Markdown语法</th>
+          <th style="text-align: center">HTML</th>
+          <th style="text-align: center">预览效果</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><code>This is the first line.  </code><br>  <code>And this is the second line.</code></td>
+          <td style="text-align: center"><code>&lt;p&gt;This is the first line.&lt;br&gt;</code><br><code> And this is the second line.&lt;/p&gt;</code></td>
+          <td style="text-align: center"><p>This is the first line.<br> And this is the second line.</p></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="换行line-break用法的最佳实践">换行（Line Break）用法的最佳实践</h2>
+<p>几乎每个 Markdown 应用程序都支持两个或多个空格进行换行，称为 <code>结尾空格（trailing whitespace)</code> 的方式，但这是有争议的，因为很难在编辑器中直接看到空格，并且很多人在每个句子后面都会有意或无意地添加两个空格。由于这个原因，你可能要使用除结尾空格以外的其它方式来换行。幸运的是，几乎每个 Markdown 应用程序都支持另一种换行方式：HTML 的 <code>&lt;br&gt;</code> 标签。<br></p>
+<p>为了兼容性，请在行尾添加“结尾空格”或 HTML 的 <code>&lt;br&gt;</code> 标签来实现换行。<br></p>
+<p>还有两种其他方式我并不推荐使用。CommonMark 和其它几种轻量级标记语言支持在行尾添加反斜杠 (<code>\</code>) 的方式实现换行，但是并非所有 Markdown 应用程序都支持此种方式，因此从兼容性的角度来看，不推荐使用。并且至少有两种轻量级标记语言支持无须在行尾添加任何内容，只须键入回车键（<code>return</code>）即可实现换行。</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">✅  Do this</th>
+          <th style="text-align: center">❌  Don&rsquo;t do this</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><code>First line with two spaces after.  </code><br> <code>And the next line.</code></td>
+          <td style="text-align: center"><code>First line with a backslash after.\</code> <br> <code>And the next line.</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: center"><code>First line with the HTML tag after.&lt;br&gt;</code><br> <code>And the next line.</code></td>
+          <td style="text-align: center"><code>First line with nothing after.</code><br> <code>And the next line.</code></td>
+      </tr>
+  </tbody>
+</table>
+
+  </article>
+
+  
+<div id="comment"></div>
+
+
+
+
+
+
+<script>
+    const s = document.createElement("script")
+    s.src = "https://giscus.app/client.js"
+    s.crossOrigin = "anonymous"
+    s.async = true
+    s.setAttribute("data-repo", "Kemeow815\/kemiao-hugo-theme-mono")
+    s.setAttribute("data-repo-id", "R_kgDOO2kVZg")
+    s.setAttribute("data-category", "Announcements")
+    s.setAttribute("data-category-id", "DIC_kwDOO2kVZs4CrEnj")
+    s.setAttribute("data-mapping", "title")
+    s.setAttribute("data-strict", "0")
+    s.setAttribute("data-reactions-enabled", "0")
+    s.setAttribute("data-emit-metadata", "0")
+    s.setAttribute("data-input-position", "top")
+    s.setAttribute("data-theme", "preferred_color_scheme")
+    s.setAttribute("data-lang", "zh-CN")
+    s.setAttribute("data-loading", "lazy")
+    document.getElementById("comment").appendChild(s)
+</script>
+
+
+
+
+
+  </main>
+  <footer class="w-full max-w-sm sm:max-w-2xl md:max-w-3xl px-5 sm:px-8">
+    <div class="mt-4 mb-8 flex items-center justify-between">
+    <div>
+      <p class="text-sm text-gray-800">© 2025 <span class="mx-1 font-bold">·</span> 克喵爱吃卤面</p>
+      <a href="https://icp.gov.moe/?keyword=20250530/"><p class="text-sm text-gray-700">萌ICP备20250530号</p></a>
+    </div>
+    <div>
+      <a href="/pages/links">
+        <p class="text-sm text-gray-800 hover:text-green-800">友链</p>
+      </a>
+    </div>
+    
+</div>
+  </footer>
+</body>
+
+
+<script src="/js/view-image.min.js"></script>
+
+<script>
+  window.ViewImage && ViewImage.init('.md img');
+</script>
+
+
+<script>
+const paragraphs = document.querySelectorAll('article .md p');
+
+paragraphs.forEach(p => {
+    
+    if (p.querySelector('img')) {
+        p.classList.add('has-image'); 
+    } 
+});
+</script>
+</html>
