@@ -2,42 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog-v2.kemiaosw.top/posts/markdown-huanhang/</loc>
+    <loc>https://myblog.kemiaosw.top/posts/markdown-qiandiao/</loc>
+    <lastmod>2025-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://myblog.kemiaosw.top/</loc>
+    <lastmod>2025-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://myblog.kemiaosw.top/posts/markdown-huanhang/</loc>
     <lastmod>2025-06-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog-v2.kemiaosw.top/</loc>
-    <lastmod>2025-06-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog-v2.kemiaosw.top/posts/zyfx-toolooz/</loc>
+    <loc>https://myblog.kemiaosw.top/posts/zyfx-toolooz/</loc>
     <lastmod>2025-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog-v2.kemiaosw.top/posts/telegram-music/</loc>
+    <loc>https://myblog.kemiaosw.top/posts/telegram-music/</loc>
     <lastmod>2025-05-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog-v2.kemiaosw.top/posts/zyfx-drop/</loc>
+    <loc>https://myblog.kemiaosw.top/posts/zyfx-drop/</loc>
     <lastmod>2025-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog-v2.kemiaosw.top/posts/tgtalk-deploy/</loc>
+    <loc>https://myblog.kemiaosw.top/posts/tgtalk-deploy/</loc>
     <lastmod>2025-05-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog-v2.kemiaosw.top/posts/waline-deploy/</loc>
+    <loc>https://myblog.kemiaosw.top/posts/waline-deploy/</loc>
     <lastmod>2025-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog-v2.kemiaosw.top/posts/umami-deploy/</loc>
+    <loc>https://myblog.kemiaosw.top/posts/umami-deploy/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog-v2.kemiaosw.top/posts/git-deploy/</loc>
+    <loc>https://myblog.kemiaosw.top/posts/git-deploy/</loc>
     <lastmod>2025-04-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog-v2.kemiaosw.top/posts/markdown-duanluo/</loc>
+    <loc>https://myblog.kemiaosw.top/posts/markdown-duanluo/</loc>
     <lastmod>2025-02-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog-v2.kemiaosw.top/posts/markdown-biaotiyufa/</loc>
+    <loc>https://myblog.kemiaosw.top/posts/markdown-biaotiyufa/</loc>
     <lastmod>2025-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog-v2.kemiaosw.top/posts/markdown-sulanbiao/</loc>
+    <loc>https://myblog.kemiaosw.top/posts/markdown-sulanbiao/</loc>
     <lastmod>2025-02-11T18:15:12+00:00</lastmod>
   </url><url>
-    <loc>https://blog-v2.kemiaosw.top/pages/links/</loc>
+    <loc>https://myblog.kemiaosw.top/pages/links/</loc>
   </url>
 </urlset>
